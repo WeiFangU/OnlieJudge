@@ -13,6 +13,7 @@
         <module>admin</module>
         <module>common</module>
         <module>adminFE</module>
+        <module>api</module>
     </modules>
 
     <properties>
