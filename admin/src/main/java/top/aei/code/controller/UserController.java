@@ -1,6 +1,8 @@
 package top.aei.code.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import top.aei.code.common.Res;
 import top.aei.code.common.Result;
@@ -11,6 +13,7 @@ import top.aei.code.web.BaseController;
 import java.util.Map;
 
 @RestController
+@RequestMapping("user")
 public class UserController extends BaseController {
 
 
@@ -18,6 +21,7 @@ public class UserController extends BaseController {
     private IUserService userService;
 
 
+    @GetMapping("/list")
     public Result list(Map<String, Object> params) {
         PageUtils page = userService.queryPage(params);
         return Res.makeOKRsp(page);

@@ -4,7 +4,7 @@ spring:
     host: ${REDIS_HOST:localhost}
     port: ${REDIS_PORT:6379}
   datasource:
-    url: jdbc:mysql://${MYSQL_HOST:sql.7326it.club}:${MYSQL_PORT:53306}/admin?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://${MYSQL_HOST:sql.7326it.club}:${MYSQL_PORT:53306}/judge?characterEncoding=utf8&useSSL=false
     username: root
     password: ${MYSQL_ROOT_PASSWORD:7326itcx}
     driver-class-name: com.mysql.jdbc.Driver
