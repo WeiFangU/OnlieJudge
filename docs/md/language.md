@@ -1,0 +1,3 @@
+langid
+name
+allow_submit

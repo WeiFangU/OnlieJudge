@@ -1,0 +1,6 @@
+probid
+name
+timelimit
+memlimit
+outputlimit
+problemtext

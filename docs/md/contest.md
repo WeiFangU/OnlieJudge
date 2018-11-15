@@ -1,0 +1,11 @@
+cid
+name
+shortname
+activatetime
+starttime
+freezetime
+endtime
+unfreezetime
+deactivatetime
+enabled
+public
