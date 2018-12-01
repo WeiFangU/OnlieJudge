@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="top.aei.code.mapper.ProblemMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="top.aei.code.entity.ProblemEntity" id="problemMap">
+        <result property="probid" column="probid"/>
+        <result property="name" column="name"/>
+        <result property="timelimit" column="timelimit"/>
+        <result property="memlimit" column="memlimit"/>
+        <result property="outputlimit" column="outputlimit"/>
+        <result property="problemtext" column="problemtext"/>
+        <result property="problemtextType" column="problemtext_type"/>
+    </resultMap>
+
+
+</mapper>

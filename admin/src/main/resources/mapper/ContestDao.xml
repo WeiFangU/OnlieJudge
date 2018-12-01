@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="top.aei.code.mapper.ContestMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="top.aei.code.entity.ContestEntity" id="contestMap">
+        <result property="cid" column="cid"/>
+        <result property="name" column="name"/>
+        <result property="shortname" column="shortname"/>
+        <result property="activatetime" column="activatetime"/>
+        <result property="starttime" column="starttime"/>
+        <result property="freezetime" column="freezetime"/>
+        <result property="endtime" column="endtime"/>
+        <result property="unfreezetime" column="unfreezetime"/>
+        <result property="deactivatetime" column="deactivatetime"/>
+        <result property="enabled" column="enabled"/>
+        <result property="ispublic" column="public"/>
+    </resultMap>
+
+
+</mapper>

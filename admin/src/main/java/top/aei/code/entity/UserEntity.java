@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 @Data
 @TableName("user")
-public class User extends Model<User> {
+public class UserEntity extends Model<UserEntity> {
     @TableField(value = "id")
     private Long id;
     private String username;
